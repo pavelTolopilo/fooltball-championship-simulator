@@ -1,0 +1,24 @@
+.container {
+    text-align: center;
+    max-width: 250px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.title {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.buttonContainer {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.totalScores {
+    width: 100%;
+    margin-top: 20px;
+    text-align: right;
+}

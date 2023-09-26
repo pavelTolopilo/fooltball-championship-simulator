@@ -1,0 +1,14 @@
+.matchContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 10px 0;
+}
+
+.teams {
+    text-align: left;
+}
+
+.scores {
+    text-align: right;
+}

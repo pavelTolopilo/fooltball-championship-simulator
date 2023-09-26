@@ -1,6 +1,8 @@
+import { TEAM_TYPE } from './constants';
+
 export interface IMatch {
-  homeTeam: ITeam;
-  awayTeam: ITeam;
+  [TEAM_TYPE.HOME]: ITeam;
+  [TEAM_TYPE.AWAY]: ITeam;
 }
 
 interface ITeam {
